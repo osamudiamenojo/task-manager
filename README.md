@@ -36,14 +36,15 @@ with other productivity tools.
 
 
 ### USER INTERFACE (UI) DESIGN
-- Intuitive Design: User-friendly interface for easy navigation.
 - Responsive Design: Accessible on desktop.
 
 ### INSTALLATION AND SETUP
+- IntelliJ IDE is recommended to run this application
 - Clone the repository: git clone https://github.com/decadevs/myboard_backend.git
-- Navigate to the project directory: cd myboard-backend.
+- Make sure you are in the project directory: cd task-manager
 - Build and run the backend server.
 - Open your web browser and navigate to http://localhost:8080 to access the application.
+- On successful run navigate to http://localhost:8080/swagger-ui/index.html on your browser to access the API
 
 ### USAGE
 - Dashboard: Upon logging in, you'll be taken to the dashboard where you can view a summary of your tasks and their details.
@@ -56,14 +57,11 @@ Backend Testing: Unit testing was done using frameworks like JUnit and Mockito f
 to ensure proper functionality and error handling.
 
 ### TECHNOLOGIES USED
-Frontend: Reactjs, TailwindCSS, JavaScript.
 Backend: Java, Spring Boot
 Database: PostgresSQL
 Authentication: JSON Web Tokens (JWT).
 Deployment: Docker, CI/CD.
 
-### CONTRIBUTING
-Contributions to the development of MyBoard are welcome! Feel free to fork the repository, make changes, and submit pull requests for review.
 
 ### LICENSE
 MyBoard is open-source software released under the [MIT Licence](/Users/decagon/Desktop/myboard_backend/LICENCE.txt)
